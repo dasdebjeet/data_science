@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/debjeet-dev/data_science/main/repoCover_img.jpg?token=GHSAT0AAAAAABVEN3M5ZZXVCRS322TAS2BAYWB5ZAQ" alt="drawing"/>
-
 # Data Science 💻🖥🧠🌎📈📉
 
 Exploring the world of Data Science.<br>
