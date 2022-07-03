@@ -1,13 +1,11 @@
-# <img src="https://raw.githubusercontent.com/debjeet-dev/blogIt/main/assests/siteTitle.svg" alt="drawing" width="200"/>
+# <img src="https://raw.githubusercontent.com/debjeet-dev/data_science/main/repoCover_img.svg?token=GHSAT0AAAAAABVUUNROGYUR3RCQPYX5JJEKYWB3YRQ" alt="drawing"/>
 
-BlogIt is a blogging website made in HTML, CSS, jquery, ajax, and PHP.
+# Data Science 💻🖥🧠🌎📈📉
 
-BlogIt users can view, upload, edit blogs.
+Exploring the world of Data Science.
+It is a repo for Data Science and Data Analysis, to daily practice and research.
 
-DEMO: https://blogit-beta.herokuapp.com/
 
-![image](https://raw.githubusercontent.com/debjeet-dev/blogIt/main/blogIt_ui.png)
+**For practice only**
 
-**NOTE: The site is still under progress**
 
-*Author: Debjeet Das*
