@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/debjeet-dev/data_science/main/repoCover_img.jpg?token=GHSAT0AAAAAABVUUNROGYUR3RCQPYX5JJEKYWB3YRQ" alt="drawing"/>
+# <img src="https://raw.githubusercontent.com/debjeet-dev/data_science/main/repoCover_img.jpg?token=GHSAT0AAAAAABVUUNRPVW6YMWLX4DQWQTH6YWB4SBA" alt="drawing"/>
 
 # Data Science 💻🖥🧠🌎📈📉
 
