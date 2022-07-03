@@ -2,7 +2,7 @@
 
 # Data Science 💻🖥🧠🌎📈📉
 
-Exploring the world of Data Science.
+Exploring the world of Data Science.<br>
 It is a repo for Data Science and Data Analysis, to daily practice and research.
 
 ## Description:
