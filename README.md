@@ -1,10 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
-
 # Data Science 💻🖥🧠🌎📈📉
 
 Exploring the world of Data Science.<br>
@@ -42,25 +35,25 @@ A capable data scientist needs to understand how databases work, how to manage t
 ### Videos to follow (Krish Naik YT vid playlist): <br>
 <table style="border:0; outline:0;">
 <tr>
-<td><em><strong>Data Science :</td><td><img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=wbRuXwWllng"> Data Science full roadmap overveiw through</a><br></strong></em></td>
+<td><em><strong>Data Science :</td><td><img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=wbRuXwWllng"> Data Science full roadmap overveiw through</a><br></strong></em></td>
 </tr>
 <tr>
-<td>1. Python:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVNUL99R4bDlVYsncUNvwUBB&index=1&t=0s"> Python for Data Science (Numpy, pandas, matplotlib...)</a><br></td>
+<td>1. Python:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVNUL99R4bDlVYsncUNvwUBB&index=1&t=0s"> Python for Data Science (Numpy, pandas, matplotlib...)</a><br></td>
 </tr>
 <tr>
-<td>2. Statistics:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=zRUliXuwJCQ&list=PLZoTAELRMXVMhVyr3Ri9IQ-t5QPBtxzJO"> Stats for Data Science (Basic, Inter, Adavc vids)</a><br></td>
+<td>2. Statistics:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=zRUliXuwJCQ&list=PLZoTAELRMXVMhVyr3Ri9IQ-t5QPBtxzJO"> Stats for Data Science (Basic, Inter, Adavc vids)</a><br></td>
 </tr>
 <tr>
-<td>3. Machine Learning:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&index=2"> ML for Data Science ([1, 28] is python vid, [28, -] is ML vid)</a><br></td>
+<td>3. Machine Learning:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe&index=2"> ML for Data Science ([1, 28] is python vid, [28, -] is ML vid)</a><br></td>
 </tr>
 <tr>
-<td>4. Deep Learning:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=YFNKnUhm_-s&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=2"> DL for Data Science </a><br></td>
+<td>4. Deep Learning:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=YFNKnUhm_-s&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi&index=2"> DL for Data Science </a><br></td>
 </tr>
 <tr>
-<td>5. Natural Language Processing:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=fM4qTMfCoak&list=PLZoTAELRMXVMdJ5sqbCK2LiM0HhQVWNzm&index=2"> NLP for Data Science </a><br></td>
+<td>5. Natural Language Processing:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=fM4qTMfCoak&list=PLZoTAELRMXVMdJ5sqbCK2LiM0HhQVWNzm&index=2"> NLP for Data Science </a><br></td>
 </tr>
 <tr>
-<td>6. MLops & Deployment:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px; vertical-align: top"/> <a href="https://www.youtube.com/watch?v=1BSwYlJUxK0&list=PLZoTAELRMXVOk1pRcOCaG5xtXxgMalpIe&index=2"> Machine learning operations & Deployments (MLOps or ML Ops is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently) for Data Science </a><br></td>
+<td>6. MLops & Deployment:</td><td> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=1BSwYlJUxK0&list=PLZoTAELRMXVOk1pRcOCaG5xtXxgMalpIe&index=2"> Machine learning operations & Deployments (MLOps or ML Ops is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently) for Data Science </a><br></td>
 </tr>
 </table>
 
