@@ -56,10 +56,9 @@ A capable data scientist needs to understand how databases work, how to manage t
 <td>6. MLops & Deployment:</td><td style="vertical-align: middle;"> <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" style="width:20px;  vertical-align: text-bottom !important"/> <a href="https://www.youtube.com/watch?v=1BSwYlJUxK0&list=PLZoTAELRMXVOk1pRcOCaG5xtXxgMalpIe&index=2"> Machine learning operations & Deployments (MLOps or ML Ops is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently) for Data Science </a><br></td>
 </tr>
 </table>
-
-
 <br>
 <br>
+
 *For practice only*
 
 
