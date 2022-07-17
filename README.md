@@ -1,4 +1,6 @@
-# Data Science 💻🖥🧠🌎📈📉
+<img src="https://frogdesign.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/08/04192430/AI_designing-with-data.gif" title="List vs Sets vs Dict vs Tuples"/>
+
+# Data Science 💻🧠🌎📉
 
 Exploring the world of Data Science.<br>
 It is a repo for Data Science and Data Analysis, to daily practice and research.
