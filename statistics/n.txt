@@ -1,0 +1,1 @@
+SELECT user_id, user_name, name, email, role, priority, status, last_seen, user_img, COUNT(blog_id) FROM users LEFT JOIN blog ON users.user_id = blog.author_id WHERE blog.blog_status = 'publish' GROUP BY author_id;
