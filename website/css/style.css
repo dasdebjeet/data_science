@@ -1,13 +1,12 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 @font-face {
     font-family: 'exan';
     src: url('../font/Exan-Regular.ttf') format('truetype')
 }
-
 
 
 * {
@@ -38,7 +37,7 @@
 a {
     text-decoration: none;
     color: inherit;
-    cursor: none;
+    cursor: pointer;
 }
 
 :root {
@@ -55,8 +54,8 @@ a {
 
 /* selection */
 ::selection {
-    color: var(--fullDark);
     background: var(--ftPurple);
+    color: var(--fullDark) !important;
 }
 
 
