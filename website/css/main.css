@@ -1,22 +1,4 @@
-.header_wrap {
-    background: url('../assests/dataScience.gif') no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    /* background: #fff; */
-    width: 100%;
-    height: 400px;
-}
-
-.header_con {
-    position: relative;
-    flex-direction: column;
-    background: #adbdef1a;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(150px);
-}
-
+/* navbar */
 .navbar_con {
     position: fixed;
     top: 0;
@@ -25,11 +7,13 @@
     width: 100%;
     /* height: 114px; */
     padding: 35px 50px;
+    justify-content: flex-start;
     /* backdrop-filter: blur(5px); */
 }
 
 .siteLogo {
     width: 15%;
+    margin-right: 120px;
     justify-content: flex-start;
     font-family: 'Rajdhani', sans-serif;
     font-size: 25px;
@@ -49,6 +33,80 @@
     /* font-weight: 600; */
     letter-spacing: 14px;
 }
+
+.navbar_menu_con>i {
+    font-size: 5px;
+    color: #4a4a4a;
+}
+
+.navbar_menu_con {
+    justify-content: space-between;
+    width: 300px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/*  */
+
+
+/* index pade */
+.main_header_con {
+    background: var(--bgPurple);
+    width: 100%;
+    height: 500px;
+}
+
+.main_header_sub {
+    width: 50%;
+    height: 100%;
+}
+
+.main_header_subLeft {
+    width: 60%;
+    padding: 50px;
+    padding-top: 200px;
+}
+
+.main_header_subLeft_title {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 70px;
+    /* line-height: 25px; */
+}
+
+.main_header_subRight {
+    background: #000;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+/* data science page */
+.header_wrap {
+    background: url('../assests/dataScience.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background: #fff; */
+    width: 100%;
+    height: 400px;
+}
+
+.header_con {
+    position: relative;
+    flex-direction: column;
+    background: #adbdef1a;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(150px);
+}
+
+
 
 
 
