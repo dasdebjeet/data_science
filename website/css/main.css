@@ -160,7 +160,13 @@
 }
 
 .subRight_card_active {
-    background: #000000;
+    background: #df72ce;
+    background: var(--ftPurple);
+}
+
+.subRight_card_active>.subRight_card_title,
+.subRight_card_active>.subRight_card_content {
+    color: var(--fullDark) !important;
 }
 
 .subRight_card_icn {
