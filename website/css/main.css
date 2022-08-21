@@ -7,8 +7,10 @@
     width: 100%;
     /* height: 114px; */
     padding: 35px 50px;
-    justify-content: flex-start;
+    justify-content: space-between;
     /* backdrop-filter: blur(5px); */
+
+    z-index: 999999;
 }
 
 .siteLogo {
@@ -35,45 +37,152 @@
 }
 
 .navbar_menu_con>i {
-    font-size: 5px;
-    color: #4a4a4a;
+    font-size: 3px;
+    color: #ffffff;
 }
 
 .navbar_menu_con {
     justify-content: space-between;
-    width: 300px;
+    width: 350px;
     font-family: 'Rajdhani', sans-serif;
 }
 
 /*  */
 
 
-/* index pade */
-.main_header_con {
-    background: var(--bgPurple);
+/* index page */
+.main_header_wrap {
+    background: url('../assests/dataScience.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
-    height: 500px;
+    min-height: calc(100vh - 114px);
 }
 
-.main_header_sub {
-    width: 50%;
+.main_header_con {
+    background: #adbdef1a;
+    width: 100%;
     height: 100%;
-}
-
-.main_header_subLeft {
-    width: 60%;
     padding: 50px;
     padding-top: 200px;
+    backdrop-filter: blur(150px);
+
 }
 
-.main_header_subLeft_title {
+.main_header_title {
+    margin-bottom: 50px;
+    color: var(--ftPurple);
+
     font-family: 'Share Tech Mono', monospace;
-    font-size: 70px;
+    font-size: 60px;
     /* line-height: 25px; */
+    background: url('../assests/dataScience.gif');
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: imagebulger 5s infinite;
+}
+
+.main_header_subtitle {
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: var(--bgPurple);
+    /* letter-spacing: 3px; */
+    word-spacing: 10px;
+    line-height: 25px;
+}
+
+.main_header_btn {
+    background: var(--fullDark);
+    justify-content: space-between;
+    width: 170px;
+    padding: 15px 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.main_header_btn:hover {
+    opacity: 0.8;
 }
 
 .main_header_subRight {
-    background: #000;
+    /* color: var(--ftLightPurple); */
+
+    /* background: red; */
+    width: 40%;
+    height: 100%;
+}
+
+.main_header_subRight>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  */
+
+.main_intro_con {
+    margin: 50px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main_intro_subLeft {
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.main_intro_subLeft_title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.main_intro_subLeft_subtitle {
+    /* margin-bottom: 20px; */
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* intro_cards */
+.main_intro_subRight_cardCon {
+    padding: 50px 0;
+}
+
+.subRight_card {
+    background: var(--bgPurple);
+    margin-right: 50px;
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.subRight_card_active {
+    background: #000000;
+}
+
+.subRight_card_icn {
+    background: var(--fullDark);
+    /* background: #000; */
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: var(--ftPurple);
+    border-radius: 10px;
+}
+
+.subRight_card_title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: var(--ftPurple);
+}
+
+.subRight_card_content {
+    font-size: 18px;
+    color: var(--ftLightPurple);
 }
 
 /*  */
