@@ -63,4 +63,4 @@ A capable data scientist needs to understand how databases work, how to manage t
 
 *For practice only*
 
-_Author: Debjeet Das_
+_Author: Debjeet_
