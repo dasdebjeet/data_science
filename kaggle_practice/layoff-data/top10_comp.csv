@@ -1,0 +1,11 @@
+,Company,Location,Industry,Laid_Off_Count,Percentage,Date,Funds_Raised,Stage,Country,year_of_laidOff,latitude,longitude
+428,Meta,SF Bay Area,Consumer,11000.0,0.13,2022-11-09 00:00:00,26000.0,IPO,United States,2022,37.7884969,-122.3558473
+10,Microsoft,Seattle,Other,10000.0,0.05,2023-01-18 00:00:00,1.0,IPO,United States,2023,47.6038321,-122.330062
+360,Amazon,Seattle,Retail,10000.0,0.03,2022-11-16 00:00:00,108.0,IPO,United States,2022,47.6038321,-122.330062
+139,Amazon,Seattle,Retail,8000.0,0.02,2023-01-04 00:00:00,108.0,IPO,United States,2023,47.6038321,-122.330062
+140,Salesforce,SF Bay Area,Sales,8000.0,0.1,2023-01-04 00:00:00,65.0,IPO,United States,2023,37.7884969,-122.3558473
+1446,Booking.com,Amsterdam,Travel,4375.0,0.25,2020-07-30 00:00:00,,Acquired,Netherlands,2020,52.3730796,4.8924534
+361,Cisco,SF Bay Area,Infrastructure,4100.0,0.05,2022-11-16 00:00:00,2.0,IPO,United States,2022,37.7884969,-122.3558473
+1595,Uber,SF Bay Area,Transportation,3700.0,0.14,2020-05-06 00:00:00,24700.0,IPO,United States,2020,37.7884969,-122.3558473
+459,Twitter,SF Bay Area,Consumer,3700.0,0.5,2022-11-04 00:00:00,12900.0,IPO,United States,2022,37.7884969,-122.3558473
+1550,Uber,SF Bay Area,Transportation,3000.0,0.13,2020-05-18 00:00:00,24700.0,IPO,United States,2020,37.7884969,-122.3558473
