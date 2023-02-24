@@ -5,18 +5,29 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>NYC Taxi Fare Predictor</title>
+
+
 
 
         <!-- css -->
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/choices.js/10.2.0/choices.css" integrity="sha512-uXn0jS70Olm5/kbgdAfBygyDVfYyCrsnBLmb1zBXAOGZVErN3WsWOXrqRyaNvXETZwi6L9X8lZJ1MtPjwMJU/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+
+        <!--Jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/boosted/5.2.3/js/boosted.bundle.min.js" integrity="sha512-NCGrwJhPe7Df2eCPozXBFauqo2ybBtQ4AetT1GHiRCWOet5AfVJBYcNTUc0NYIGJK8xVVLZNTl9joZnLyEWJJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/choices.js/10.2.0/choices.css" integrity="sha512-uXn0jS70Olm5/kbgdAfBygyDVfYyCrsnBLmb1zBXAOGZVErN3WsWOXrqRyaNvXETZwi6L9X8lZJ1MtPjwMJU/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/choices.js/10.2.0/choices.min.js" integrity="sha512-OrRY3yVhfDckdPBIjU2/VXGGDjq3GPcnILWTT39iYiuV6O3cEcAxkgCBVR49viQ99vBFeu+a6/AoFAkNHgFteg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/76c40a5f57.js" crossorigin="anonymous"></script>
+        <link href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" rel=" stylesheet">
     </head>
 
     <body>
@@ -25,52 +36,152 @@
         <div class="wrapper">
             <div class="container">
                 <h1>Nyc Taxi Fare predictor</h1>
-                <div class="taxi_det_form">
-
-                    <div class="input_con">
-                        <div class="label_text">Pickup Location</div>
-                        <input type="text" name="" id="">
+                <div class="taxi_det_form flexc">
+                    <div class="input_con psgName_inp" style="width: 100%;">
+                        <div class="label_text">Name</div>
+                        <input type="text" name="" class="form-control">
                     </div>
 
-                    <div class="input_con">
-                        <div class="label_text">Pickup Location</div>
-                        <input type="text" name="" id="">
+                    <div class="input_con psgCount_inp" style="width: 100%;">
+                        <div class="label_text">Passenger Count</div>
+                        <input type="number" name="" id="" min="1" max="5" class="form-control">
                     </div>
 
+                    <div class="input_con pickup_inp">
+                        <div class="label_text">Pickup Location</div>
 
-                    <!-- AUTO COMPLETE DROPDOWN -->
-                    <select class="selectpicker form-control border-0 mb-1 px-4 py-4 rounded shadow">
-                        <option value="Ultrasound Knee Right">Ultrasound Knee Right</option>
-                        <option value="Ultrasound Knee Left">Ultrasound Knee Left</option>
-                        <option value="MRI Knee Right">MRI Knee Right</option>
-                        <option value="MRI Knee Left">MRI Knee Left</option>
-                        <option value="MRI Forearm/Elbow Right">MRI Forearm/Elbow Right</option>
-                        <option value="MRI Forearm/Elbow Left">MRI Forearm/Elbow Left</option>
-                        <option value="CT Knee Right">CT Knee Right</option>
-                        <option value="CT Knee Left">CT Knee Left</option>
-                    </select>
 
+                        <!-- AUTO COMPLETE DROPDOWN -->
+                        <select class="selectpicker form-control border-0 mb-1 px-4 py-4 rounded shadow">
+                            <option value="">...</option>
+                            <option value="Ultrasound Knee Right">Ultrasound Knee Right</option>
+                            <option value="Ultrasound Knee Left">Ultrasound Knee Left</option>
+                            <option value="MRI Knee Right">MRI Knee Right</option>
+                            <option value="MRI Knee Left">MRI Knee Left</option>
+                            <option value="MRI Forearm/Elbow Right">MRI Forearm/Elbow Right</option>
+                            <option value="MRI Forearm/Elbow Left">MRI Forearm/Elbow Left</option>
+                            <option value="CT Knee Right">CT Knee Right</option>
+                            <option value="CT Knee Left">CT Knee Left</option>
+                        </select>
+                    </div>
+
+                    <div class="input_con dropoff_inp">
+                        <div class="label_text">Dropoff Location</div>
+
+
+                        <!-- AUTO COMPLETE DROPDOWN -->
+                        <select class="selectpicker form-control border-0 mb-1 px-4 py-4 rounded shadow">
+                            <option value="">...</option>
+                            <option value="Ultrasound Knee Right">Ultrasound Knee Right</option>
+                            <option value="Ultrasound Knee Left">Ultrasound Knee Left</option>
+                            <option value="MRI Knee Right">MRI Knee Right</option>
+                            <option value="MRI Knee Left">MRI Knee Left</option>
+                            <option value="MRI Forearm/Elbow Right">MRI Forearm/Elbow Right</option>
+                            <option value="MRI Forearm/Elbow Left">MRI Forearm/Elbow Left</option>
+                            <option value="CT Knee Right">CT Knee Right</option>
+                            <option value="CT Knee Left">CT Knee Left</option>
+                        </select>
+                    </div>
+
+                    <button class="predict_btn">Predict</button>
 
                 </div>
+
+
+
+
+                <div class="model_container">
+                    <div class="ticket_wrap flexc">
+                        <div class="ticket_con">
+                            <div class="ticket_conLeft">
+                                <div class="ticket_content flexc">
+                                    <div class="psg_info info_pickupLoc">
+                                        <div class="title">pickup Location</div>
+                                        <div class="subtitle">NYC City</div>
+                                    </div>
+
+                                    <div class="arrow_icn flexc"><i class="far fa-long-arrow-right"></i></div>
+
+                                    <div class="psg_info info_pickupLoc">
+                                        <div class="title">dropoff Location</div>
+                                        <div class="subtitle">Downtown</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ticket_conRight">
+
+                                <div class="ticket_info flexc">
+                                    <div class="psg_info info_pname">
+                                        <div class="title">name</div>
+                                        <div class="subtitle">Debjeet</div>
+                                    </div>
+
+
+                                    <div class="psg_info info_pcount">
+                                        <div class="title">passenger count</div>
+                                        <div class="subtitle">1</div>
+                                    </div>
+
+                                    <div class="psg_info info_pfare">
+                                        <div class="title">Fare</div>
+                                        <div class="subtitle">$ 10</div>
+                                    </div>
+
+                                    <div class="psg_info info_time">
+                                        <div class="subtitle">JUN-28-2017 AT 08:30 AM</div>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
             </div>
+
+
+
         </div>
 
 
 
         <script>
-            const sorting = document.querySelector('.selectpicker');
-            const commentSorting = document.querySelector('.selectpicker');
-            const sortingchoices = new Choices(sorting, {
-                placeholder: false,
-                itemSelectText: ''
-            });
+            const elmens = document.querySelectorAll('.selectpicker');
+            elmens.forEach((sorting) => {
+                const sortingchoices = new Choices(sorting, {
+                    placeholder: false,
+                    itemSelectText: ''
+                });
 
 
-            // Trick to apply your custom classes to generated dropdown menu
-            let sortingClass = sorting.getAttribute('class');
-            window.onload = function () {
-                sorting.parentElement.setAttribute('class', sortingClass);
-            }
+                // Trick to apply your custom classes to generated dropdown menu
+                let sortingClass = sorting.getAttribute('class');
+                window.onload = function () {
+                    sorting.parentElement.setAttribute('class', sortingClass);
+                }
+
+            })
+
+
+
+
+            $(".predict_btn").click(() => {
+                var pickup_inp = $('.pickup_inp').find(":selected").text()
+                var dropoff_inp = $('.dropoff_inp').find(":selected").text()
+
+                var passenger_count = $(".psgCount_inp>input").val()
+
+
+                var dt = new Date();
+                var time = dt.getFullYear() + "-" + dt.getHours();
+                console.log(time)
+            })
 
         </script>
     </body>
