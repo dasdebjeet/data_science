@@ -11,19 +11,66 @@
         <!-- css -->
         <link rel="stylesheet" href="./style.css">
 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/boosted/5.2.3/js/boosted.bundle.min.js" integrity="sha512-NCGrwJhPe7Df2eCPozXBFauqo2ybBtQ4AetT1GHiRCWOet5AfVJBYcNTUc0NYIGJK8xVVLZNTl9joZnLyEWJJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/choices.js/10.2.0/choices.css" integrity="sha512-uXn0jS70Olm5/kbgdAfBygyDVfYyCrsnBLmb1zBXAOGZVErN3WsWOXrqRyaNvXETZwi6L9X8lZJ1MtPjwMJU/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/choices.js/10.2.0/choices.min.js" integrity="sha512-OrRY3yVhfDckdPBIjU2/VXGGDjq3GPcnILWTT39iYiuV6O3cEcAxkgCBVR49viQ99vBFeu+a6/AoFAkNHgFteg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
 
     <body>
         <!-- fare_amount(x) ~ [year, hour, distance, passenger_count] -->
 
         <div class="wrapper">
+            <div class="container">
+                <h1>Nyc Taxi Fare predictor</h1>
+                <div class="taxi_det_form">
 
+                    <div class="input_con">
+                        <div class="label_text">Pickup Location</div>
+                        <input type="text" name="" id="">
+                    </div>
+
+                    <div class="input_con">
+                        <div class="label_text">Pickup Location</div>
+                        <input type="text" name="" id="">
+                    </div>
+
+
+                    <!-- AUTO COMPLETE DROPDOWN -->
+                    <select class="selectpicker form-control border-0 mb-1 px-4 py-4 rounded shadow">
+                        <option value="Ultrasound Knee Right">Ultrasound Knee Right</option>
+                        <option value="Ultrasound Knee Left">Ultrasound Knee Left</option>
+                        <option value="MRI Knee Right">MRI Knee Right</option>
+                        <option value="MRI Knee Left">MRI Knee Left</option>
+                        <option value="MRI Forearm/Elbow Right">MRI Forearm/Elbow Right</option>
+                        <option value="MRI Forearm/Elbow Left">MRI Forearm/Elbow Left</option>
+                        <option value="CT Knee Right">CT Knee Right</option>
+                        <option value="CT Knee Left">CT Knee Left</option>
+                    </select>
+
+
+                </div>
+            </div>
         </div>
 
 
 
         <script>
+            const sorting = document.querySelector('.selectpicker');
+            const commentSorting = document.querySelector('.selectpicker');
+            const sortingchoices = new Choices(sorting, {
+                placeholder: false,
+                itemSelectText: ''
+            });
 
+
+            // Trick to apply your custom classes to generated dropdown menu
+            let sortingClass = sorting.getAttribute('class');
+            window.onload = function () {
+                sorting.parentElement.setAttribute('class', sortingClass);
+            }
 
         </script>
     </body>
