@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
+/* barcode */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -70,7 +74,6 @@ body {
 
 .wrapper {
     min-height: 100vh;
-    padding: 100px 0 0;
 }
 
 .container {
@@ -78,12 +81,12 @@ body {
     background: #000000af;
     width: 40%;
     max-width: 450px;
-    height: fit-content;
+    height: 90vh;
     margin: 0px auto;
 
 
     backdrop-filter: blur(15px);
-    border: 3px solid #FFBF00;
+    border: 5px solid #FFBF00;
     border-width: 3px 0 3px 0;
     border-radius: 5px;
 }
@@ -94,22 +97,32 @@ body {
     top: 0px;
     background: #ffffff;
     width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .ticket_wrap {
-    background: #ffffff;
+    position: relative;
+    background: #FFBF00;
     /* width: 100%; */
-    height: 500px;
-    margin: 0 50px;
+    height: 100%;
+    padding: 30px;
+}
+
+.ticket_header {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .ticket_con {
-    background: #ffffff;
-    padding: 20px;
     width: 600px;
-    height: calc(100% - 20px);
-
-    border-radius: 3px;
+    height: 100%;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -141,7 +154,8 @@ body {
 }
 
 .ticket_conRight {
-    background: #FFBF00;
+    position: relative;
+    background: #ffffff;
     /* width: 30%; */
     height: 65%;
     /* border-left: 1px dashed #000000; */
@@ -149,9 +163,40 @@ body {
 
 }
 
+.cutoff_line {
+    position: absolute;
+    left: 50%;
+    bottom: 120px;
+    width: 90%;
+    border: 1px dashed #000000;
+    transform: translate(-50%, 0%);
+}
+
+.dots {
+    background: #FFBF00;
+    position: absolute;
+    bottom: 111px;
+    width: 20px;
+    height: 20px;
+    /* border: 10px solid #FFBF00; */
+    border-radius: 50px;
+
+    /* box-shadow: 5px 10px 20px red inset; */
+}
+
+.dot_left {
+    left: 0;
+    transform: translate(-50%, 0%);
+}
+
+.dot_right {
+    right: -10px;
+}
+
 .ticket_info {
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 
@@ -184,6 +229,68 @@ body {
 .info_pfare>.subtitle {
     font-size: 30px;
 }
+
+
+.barcode_info {
+    width: 100%;
+    margin: 10px auto 0;
+    text-align: center;
+    font-family: 'Libre Barcode 39', cursive;
+    font-size: 5em;
+}
+
+.ticket_miniInfo {
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    margin-top: 20px;
+    width: 100%;
+}
+
+.miniInfo_left>.barcode_info {
+    width: fit-content;
+    margin: 0;
+    margin-right: 20px;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+}
+
+
+.miniInfo_right>div {
+    margin-bottom: 5px;
+}
+
+.miniInfo_des {
+    margin-bottom: 20px !important;
+}
+
+
+.stamp {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotate(340deg);
+    color: #0A9928;
+    font-size: 35px;
+    font-weight: 700;
+    border: 0.25rem solid #0A9928;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-family: 'Courier';
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+}
+
+/* ticket-- */
+
+
 
 
 
